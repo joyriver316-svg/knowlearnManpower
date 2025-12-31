@@ -16,10 +16,7 @@ const Sidebar = () => {
 
     return (
         <aside className="sidebar glass-panel">
-            <div className="sidebar-header">
-                <Activity className="logo-icon" size={28} color="var(--accent-primary)" />
-                <span className="logo-text">KNOWLEARN</span>
-            </div>
+
 
             <nav className="sidebar-nav">
                 {navItems.map((item) => (
@@ -34,15 +31,7 @@ const Sidebar = () => {
                 ))}
             </nav>
 
-            <div className="sidebar-footer">
-                <div className="user-info">
-                    <div className="avatar">AD</div>
-                    <div className="texts">
-                        <span className="name">Admin User</span>
-                        <span className="role">System Manager</span>
-                    </div>
-                </div>
-            </div>
+
         </aside>
     );
 };
